@@ -56,3 +56,18 @@ h1{
     background: #4CAF50;
     cursor: pointer;
   }
+
+  .Page_site {
+    display: flex;
+    flex-wrap: wrap; /* Permettre le retour à la ligne des images */
+    justify-content: center; /* Aligner les images horizontalement au centre */
+}
+
+.Page_site img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+  }
